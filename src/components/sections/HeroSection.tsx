@@ -3,9 +3,9 @@ import { BackgroundBeamsWithCollision } from "../ui/background-beams-with-collis
 
 export function HeroSection() {
   return (
-    <section id="home" className="relative w-full min-h-[60vh] flex items-center justify-center px-2 sm:px-4 py-8">
-      <BackgroundBeamsWithCollision className="">
-        <div className="relative z-20 flex flex-col items-center justify-center w-full max-w-3xl mx-auto">
+    <section id="home" className="relative w-full min-h-screen flex items-center justify-center px-0 sm:px-0 py-0 overflow-hidden">
+      <BackgroundBeamsWithCollision className="absolute inset-0 w-full h-full">
+        <div className="relative z-20 flex flex-col items-center justify-center w-full max-w-3xl mx-auto px-2 sm:px-4 py-8">
           <h1 className="text-2xl xs:text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-center text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-violet-500 to-pink-500 drop-shadow-xl animate-fade-in-up leading-tight">
             I’m Levati Pardhu sai Ganesh
           </h1>
