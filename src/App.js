@@ -7,6 +7,7 @@ import { AboutSection } from "./components/sections/AboutSection.tsx";
 import { ProjectsSection } from "./components/sections/ProjectsSection.tsx";
 import { EducationSection } from "./components/sections/EducationSection.tsx";
 import { ContactSection } from "./components/sections/ContactSection.tsx";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
   <ProjectsSection />
   <EducationSection />
   <ContactSection />
+  <Footer />
     </div>
   );
 }
