@@ -1,3 +1,13 @@
+.project-card {
+  transition: transform 0.3s cubic-bezier(.4,0,.2,1), box-shadow 0.3s cubic-bezier(.4,0,.2,1);
+  will-change: transform;
+  transform-style: preserve-3d;
+}
+.project-card:hover {
+  transform: rotateY(8deg) scale(1.04) translateY(-6px);
+  box-shadow: 0 12px 40px 0 rgba(99,102,241,0.18), 0 2px 8px 0 rgba(0,0,0,0.08);
+  z-index: 2;
+}
 /* Project Section Custom Styles */
 .projects-section-title {
   letter-spacing: 0.04em;
